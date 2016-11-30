@@ -1,0 +1,536 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.6": {
+      "Autofac/3.5.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Autofac.dll": {}
+        }
+      },
+      "Chronic.Signed/0.3.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Chronic.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Chronic.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.WebHost": "[5.2.3, 5.3.0)"
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.3"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.3, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        }
+      },
+      "Microsoft.Bot.Builder/3.2.1": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "3.5.2",
+          "Chronic.Signed": "0.3.2",
+          "Microsoft.AspNet.WebApi.Client": "5.2.3",
+          "Microsoft.AspNet.WebApi.Core": "5.2.3",
+          "Microsoft.IdentityModel.Protocol.Extensions": "1.0.2.206221351",
+          "Microsoft.Rest.ClientRuntime": "2.3.2",
+          "Newtonsoft.Json": "8.0.3",
+          "System.IdentityModel.Tokens.Jwt": "4.0.2.206221351"
+        },
+        "compile": {
+          "lib/net46/Microsoft.Bot.Builder.dll": {},
+          "lib/net46/Microsoft.Bot.Connector.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Microsoft.Bot.Builder.dll": {},
+          "lib/net46/Microsoft.Bot.Connector.dll": {}
+        },
+        "resource": {
+          "lib/net46/ar/Microsoft.Bot.Builder.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net46/cs/Microsoft.Bot.Builder.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net46/de-de/Microsoft.Bot.Builder.resources.dll": {
+            "locale": "de-de"
+          },
+          "lib/net46/en/Microsoft.Bot.Builder.resources.dll": {
+            "locale": "en"
+          },
+          "lib/net46/es/Microsoft.Bot.Builder.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net46/fa/Microsoft.Bot.Builder.resources.dll": {
+            "locale": "fa"
+          },
+          "lib/net46/fr/Microsoft.Bot.Builder.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net46/ja/Microsoft.Bot.Builder.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net46/ru/Microsoft.Bot.Builder.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net46/zh-hans/Microsoft.Bot.Builder.resources.dll": {
+            "locale": "zh-hans"
+          }
+        }
+      },
+      "Microsoft.Bot.Connector.DirectLine/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[1.8.2, 2.0.0)",
+          "Newtonsoft.Json": "7.0.1"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Bot.Connector.DirectLine.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Bot.Connector.DirectLine.dll": {}
+        }
+      },
+      "Microsoft.Cognitive.LUIS/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "compile": {
+          "lib/portable45-net45+win8+wpa81/Microsoft.Cognitive.LUIS.dll": {}
+        },
+        "runtime": {
+          "lib/portable45-net45+win8+wpa81/Microsoft.Cognitive.LUIS.dll": {}
+        }
+      },
+      "Microsoft.Diagnostics.Tracing.EventSource.Redist/1.1.28": {
+        "type": "package",
+        "compile": {
+          "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Logging/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Logging.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Protocol.Extensions/1.0.2.206221351": {
+        "type": "package",
+        "dependencies": {
+          "System.IdentityModel.Tokens.Jwt": "4.0.2.206221351"
+        },
+        "compile": {
+          "lib/net45/Microsoft.IdentityModel.Protocol.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.IdentityModel.Protocol.Extensions.dll": {}
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "1.0.0",
+          "Newtonsoft.Json": "9.0.1"
+        },
+        "frameworkAssemblies": [
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Microsoft.IdentityModel.Tokens.dll": {}
+        }
+      },
+      "Microsoft.Net.Compilers/1.2.1": {
+        "type": "package"
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.8"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Net",
+          "System.Net.Http",
+          "System.Net.Http.WebRequest",
+          "System.Runtime.Serialization",
+          "System.Xml",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Microsoft.WindowsAzure.ConfigurationManager/3.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.WindowsAzure.Configuration.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/4.0.2.206221351": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.IdentityModel.Tokens.Jwt.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.IdentityModel.Tokens.Jwt.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autofac/3.5.2": {
+      "sha512": "pGR5LjY8T/16x6SkJNd7u6EjQnE4C7JS0BZJ7Yl7pt313gIUZ/2ZnPSOIM5eaIA7ArxaudlyyLvAT4ayX5UJ/A==",
+      "type": "package",
+      "path": "autofac/3.5.2",
+      "files": [
+        "autofac.3.5.2.nupkg.sha512",
+        "autofac.nuspec",
+        "lib/net40/Autofac.dll",
+        "lib/net40/Autofac.xml",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/Autofac.dll",
+        "lib/portable-net4+sl5+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1/Autofac.xml"
+      ]
+    },
+    "Chronic.Signed/0.3.2": {
+      "sha512": "6Az1dzHW+6Mm94yUqMze3QyLL/6uj50UcM1ZcR0+pMjU/+Cdf/3m4hXHhx36AAm1V2CGyTBph/k0xCnj6FavjQ==",
+      "type": "package",
+      "path": "chronic.signed/0.3.2",
+      "files": [
+        "chronic.signed.0.3.2.nupkg.sha512",
+        "chronic.signed.nuspec",
+        "lib/net40/Chronic.dll"
+      ]
+    },
+    "Microsoft.AspNet.WebApi/5.2.3": {
+      "sha512": "mGBfSy61+2dIdPwgguW8EaCVsbYTwwVHeCc/pVq1PhlZS87ColgJ++Hve40TrX6Dtqde0fo9M1Tt19rXlHC5GA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi/5.2.3",
+      "files": [
+        "microsoft.aspnet.webapi.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.3": {
+      "sha512": "3kiI8peSXbXHDDrRuo+QaX0iCEVRe0nvn2dBDRw656uPX32UalbBlSIDUDlJxu05eau4tnuhsikiUuugvvoUoQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.3",
+      "files": [
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml",
+        "microsoft.aspnet.webapi.client.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.client.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.3": {
+      "sha512": "o90QYlRV8VKR1S7+EcJw9w8WSyVFLl+IIzN8ILZ+n2t6rsc/KS8kBxRzA7wCFPRUHhebCfLqilBk39phvanx3g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.3",
+      "files": [
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml",
+        "microsoft.aspnet.webapi.core.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.WebHost/5.2.3": {
+      "sha512": "bhm4/BKdS3t6nK2R3NjCpxulcwtMFiHqVBDLuN3W5So1PhZfE+RBs7eVazGOhsEKCk7PoSmiSnl9DG0cpyfHtA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.webhost/5.2.3",
+      "files": [
+        "lib/net45/System.Web.Http.WebHost.dll",
+        "lib/net45/System.Web.Http.WebHost.xml",
+        "microsoft.aspnet.webapi.webhost.5.2.3.nupkg.sha512",
+        "microsoft.aspnet.webapi.webhost.nuspec"
+      ]
+    },
+    "Microsoft.Bot.Builder/3.2.1": {
+      "sha512": "Z4Xgn0luEsO5CtxWC/y6gr14dGwBnndpdK3Tg4h0755xO9V9AqLke6idFJb5676KTWLu1mkWbyEta6gTsJtkHw==",
+      "type": "package",
+      "path": "Microsoft.Bot.Builder/3.2.1",
+      "files": [
+        "Microsoft.Bot.Builder.3.2.1.nupkg.sha512",
+        "Microsoft.Bot.Builder.nuspec",
+        "lib/net46/Microsoft.Bot.Builder.XML",
+        "lib/net46/Microsoft.Bot.Builder.dll",
+        "lib/net46/Microsoft.Bot.Connector.dll",
+        "lib/net46/Microsoft.Bot.Connector.xml",
+        "lib/net46/ar/Microsoft.Bot.Builder.resources.dll",
+        "lib/net46/cs/Microsoft.Bot.Builder.resources.dll",
+        "lib/net46/de-de/Microsoft.Bot.Builder.resources.dll",
+        "lib/net46/en/Microsoft.Bot.Builder.resources.dll",
+        "lib/net46/es/Microsoft.Bot.Builder.resources.dll",
+        "lib/net46/fa/Microsoft.Bot.Builder.resources.dll",
+        "lib/net46/fr/Microsoft.Bot.Builder.resources.dll",
+        "lib/net46/ja/Microsoft.Bot.Builder.resources.dll",
+        "lib/net46/ru/Microsoft.Bot.Builder.resources.dll",
+        "lib/net46/zh-hans/Microsoft.Bot.Builder.resources.dll",
+        "tools/RView.exe"
+      ]
+    },
+    "Microsoft.Bot.Connector.DirectLine/1.0.1": {
+      "sha512": "p6ou7SjJRGH3YQb/A82YyKVu2SVyCKhJiN1KBykew+Q18xn1Aa0niLZ2evaW62IFizwox7X0MVeU0Jub9hH5Lw==",
+      "type": "package",
+      "path": "microsoft.bot.connector.directline/1.0.1",
+      "files": [
+        "lib/net45/Microsoft.Bot.Connector.DirectLine.dll",
+        "microsoft.bot.connector.directline.1.0.1.nupkg.sha512",
+        "microsoft.bot.connector.directline.nuspec"
+      ]
+    },
+    "Microsoft.Cognitive.LUIS/1.0.0": {
+      "sha512": "C/TkWA7elrx4yyZorYXtFTFwhlA++OwUdlGcYonSvcxv/rCG/cVOw7GqXu95OvQiBO3K48HnsFzQwAwdrfOVfA==",
+      "type": "package",
+      "path": "Microsoft.Cognitive.LUIS/1.0.0",
+      "files": [
+        "Microsoft.Cognitive.LUIS.1.0.0.nupkg.sha512",
+        "Microsoft.Cognitive.LUIS.nuspec",
+        "lib/portable45-net45+win8+wpa81/Microsoft.Cognitive.LUIS.dll"
+      ]
+    },
+    "Microsoft.Diagnostics.Tracing.EventSource.Redist/1.1.28": {
+      "sha512": "pn07chRDMdeug9sHbuNlAEZG8ZN3zKgE07IMJG7qPeoQlX6ve01rKTwknKCY/2CVacRP78ONzykV8am84gxc2g==",
+      "type": "package",
+      "path": "microsoft.diagnostics.tracing.eventsource.redist/1.1.28",
+      "files": [
+        "License-Stable.rtf",
+        "lib/net35/Microsoft.Diagnostics.Tracing.EventSource.XML",
+        "lib/net35/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "lib/net40/Microsoft.Diagnostics.Tracing.EventSource.XML",
+        "lib/net40/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.XML",
+        "lib/net46/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "lib/portable-win8+wpa81/Microsoft.Diagnostics.Tracing.EventSource.XML",
+        "lib/portable-win8+wpa81/Microsoft.Diagnostics.Tracing.EventSource.dll",
+        "microsoft.diagnostics.tracing.eventsource.redist.1.1.28.nupkg.sha512",
+        "microsoft.diagnostics.tracing.eventsource.redist.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Logging/1.0.0": {
+      "sha512": "Ol7aYJKsY1UDDTnCjXai17G3bJ0Q7Xj97Ao4nCoSU3+sc1/uMaWhCs3RjsZnrapYbdBPtt1xTPbhC8R6M1MqWQ==",
+      "type": "package",
+      "path": "Microsoft.IdentityModel.Logging/1.0.0",
+      "files": [
+        "Microsoft.IdentityModel.Logging.1.0.0.nupkg.sha512",
+        "Microsoft.IdentityModel.Logging.nuspec",
+        "lib/net451/Microsoft.IdentityModel.Logging.dll",
+        "lib/net451/Microsoft.IdentityModel.Logging.xml",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Logging.dll",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Logging.xml"
+      ]
+    },
+    "Microsoft.IdentityModel.Protocol.Extensions/1.0.2.206221351": {
+      "sha512": "3uzp0TnBa7jJj0iq8THarL+D/tcVkL5nJOLA1ewwXvI4DzlDKMQWN+Rd8o07uX72VIuMRyR7CIhB9rnwvYK1wg==",
+      "type": "package",
+      "path": "microsoft.identitymodel.protocol.extensions/1.0.2.206221351",
+      "files": [
+        "lib/net45/Microsoft.IdentityModel.Protocol.Extensions.XML",
+        "lib/net45/Microsoft.IdentityModel.Protocol.Extensions.dll",
+        "lib/net45/Microsoft.IdentityModel.Protocol.Extensions.pdb",
+        "microsoft.identitymodel.protocol.extensions.1.0.2.206221351.nupkg.sha512",
+        "microsoft.identitymodel.protocol.extensions.nuspec"
+      ]
+    },
+    "Microsoft.IdentityModel.Tokens/5.0.0": {
+      "sha512": "EINdydCekJeyG+IyaB/3GbIfEeaOIU5GJiMmpCI+G+o1g9RvRHkS1hpG4KCp3J5nOLzr31k+rRtNrEQcJJEGOQ==",
+      "type": "package",
+      "path": "Microsoft.IdentityModel.Tokens/5.0.0",
+      "files": [
+        "Microsoft.IdentityModel.Tokens.5.0.0.nupkg.sha512",
+        "Microsoft.IdentityModel.Tokens.nuspec",
+        "lib/net451/Microsoft.IdentityModel.Tokens.dll",
+        "lib/net451/Microsoft.IdentityModel.Tokens.xml",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.dll",
+        "lib/netstandard1.4/Microsoft.IdentityModel.Tokens.xml"
+      ]
+    },
+    "Microsoft.Net.Compilers/1.2.1": {
+      "sha512": "uknIbLmPaW/f5LN79Vi2UgUj93EJZ8JYFmaa8imQhCz9h15twrCVQDJckJRdErskDl4z+MfzoHQUGE9r9bMhmA==",
+      "type": "package",
+      "path": "microsoft.net.compilers/1.2.1",
+      "files": [
+        "ThirdPartyNotices.rtf",
+        "build/Microsoft.Net.Compilers.props",
+        "microsoft.net.compilers.1.2.1.nupkg.sha512",
+        "microsoft.net.compilers.nuspec",
+        "tools/Microsoft.Build.Tasks.CodeAnalysis.dll",
+        "tools/Microsoft.CSharp.Core.targets",
+        "tools/Microsoft.CodeAnalysis.CSharp.Scripting.dll",
+        "tools/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/Microsoft.CodeAnalysis.Scripting.dll",
+        "tools/Microsoft.CodeAnalysis.VisualBasic.dll",
+        "tools/Microsoft.CodeAnalysis.dll",
+        "tools/Microsoft.DiaSymReader.Native.amd64.dll",
+        "tools/Microsoft.DiaSymReader.Native.x86.dll",
+        "tools/Microsoft.VisualBasic.Core.targets",
+        "tools/System.AppContext.dll",
+        "tools/System.Collections.Immutable.dll",
+        "tools/System.Diagnostics.StackTrace.dll",
+        "tools/System.IO.FileSystem.Primitives.dll",
+        "tools/System.IO.FileSystem.dll",
+        "tools/System.Reflection.Metadata.dll",
+        "tools/VBCSCompiler.exe",
+        "tools/VBCSCompiler.exe.config",
+        "tools/csc.exe",
+        "tools/csc.exe.config",
+        "tools/csc.rsp",
+        "tools/csi.exe",
+        "tools/csi.rsp",
+        "tools/vbc.exe",
+        "tools/vbc.exe.config",
+        "tools/vbc.rsp"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime/2.3.2": {
+      "sha512": "qrPBemfdOfD7/LcSa7Hqi01KqLwCZbJ+/GSLN9BnL058/gMU9lvU+Ww19oZbjXh9jr2WzNXPhMJ/YkX9bwQCfw==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime/2.3.2",
+      "files": [
+        "lib/net45/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard1.1/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard1.5/Microsoft.Rest.ClientRuntime.dll",
+        "microsoft.rest.clientruntime.2.3.2.nupkg.sha512",
+        "microsoft.rest.clientruntime.nuspec"
+      ]
+    },
+    "Microsoft.WindowsAzure.ConfigurationManager/3.2.1": {
+      "sha512": "92deJ/UgEChOtHb9eLYBsL1+Y38Y5hr+qwd7LB+iCwfIOvRsah3EUnGBjSNZxSydguXimIiJjsB4wQ2jXIqaIQ==",
+      "type": "package",
+      "path": "microsoft.windowsazure.configurationmanager/3.2.1",
+      "files": [
+        "lib/net40/Microsoft.WindowsAzure.Configuration.dll",
+        "lib/net40/Microsoft.WindowsAzure.Configuration.xml",
+        "microsoft.windowsazure.configurationmanager.3.2.1.nupkg.sha512",
+        "microsoft.windowsazure.configurationmanager.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "type": "package",
+      "path": "Newtonsoft.Json/9.0.1",
+      "files": [
+        "Newtonsoft.Json.9.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "System.IdentityModel.Tokens.Jwt/4.0.2.206221351": {
+      "sha512": "bBOwCeNaLK86xlBwAjuQ772eHFekr4pQQmPwgcVfQ2OMqGILCJp8YCEZfT3YBSYw3WEFM04vfLST4hmDtuKePQ==",
+      "type": "package",
+      "path": "system.identitymodel.tokens.jwt/4.0.2.206221351",
+      "files": [
+        "lib/net45/System.IdentityModel.Tokens.Jwt.Xml",
+        "lib/net45/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net45/System.IdentityModel.Tokens.Jwt.pdb",
+        "system.identitymodel.tokens.jwt.4.0.2.206221351.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [],
+    ".NETFramework,Version=v4.6": [
+      "Autofac >= 3.5.2",
+      "Chronic.Signed >= 0.3.2",
+      "Microsoft.AspNet.WebApi >= 5.2.3",
+      "Microsoft.AspNet.WebApi.Client >= 5.2.3",
+      "Microsoft.AspNet.WebApi.Core >= 5.2.3",
+      "Microsoft.AspNet.WebApi.WebHost >= 5.2.3",
+      "Microsoft.Bot.Builder >= 3.2.1",
+      "Microsoft.Bot.Connector.DirectLine >= 1.0.1",
+      "Microsoft.Cognitive.LUIS >= 1.0.0",
+      "Microsoft.Diagnostics.Tracing.EventSource.Redist >= 1.1.28",
+      "Microsoft.IdentityModel.Protocol.Extensions >= 1.0.2.206221351",
+      "Microsoft.IdentityModel.Tokens >= 1.0.2.206221351",
+      "Microsoft.Net.Compilers >= 1.2.1",
+      "Microsoft.Rest.ClientRuntime >= 2.3.2",
+      "Microsoft.WindowsAzure.ConfigurationManager >= 3.2.1",
+      "Newtonsoft.Json >= 9.0.1",
+      "System.IdentityModel.Tokens.Jwt >= 4.0.2.206221351"
+    ]
+  },
+  "tools": {},
+  "projectFileToolGroups": {}
+}

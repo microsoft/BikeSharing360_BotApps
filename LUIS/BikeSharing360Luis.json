@@ -1,0 +1,163 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "BikeSharing360Luis",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Confirm"
+    },
+    {
+      "name": "Issue"
+    },
+    {
+      "name": "Lost"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Pickup"
+    },
+    {
+      "name": "Return"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "bing_entities": [
+    "datetime",
+    "encyclopedia",
+    "geography"
+  ],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "i want to pick up a bike",
+      "intent": "Pickup",
+      "entities": []
+    },
+    {
+      "text": "i want to return the bike",
+      "intent": "Return",
+      "entities": []
+    },
+    {
+      "text": "my bike has a flat tire",
+      "intent": "Issue",
+      "entities": []
+    },
+    {
+      "text": "i cannot find my bike",
+      "intent": "Lost",
+      "entities": []
+    },
+    {
+      "text": "i lost my bike",
+      "intent": "Lost",
+      "entities": []
+    },
+    {
+      "text": "where is my bike",
+      "intent": "Lost",
+      "entities": []
+    },
+    {
+      "text": "where to return",
+      "intent": "Return",
+      "entities": []
+    },
+    {
+      "text": "where to pick up",
+      "intent": "Pickup",
+      "entities": []
+    },
+    {
+      "text": "my bike is bad",
+      "intent": "Issue",
+      "entities": []
+    },
+    {
+      "text": "my bike has some issues",
+      "intent": "Issue",
+      "entities": []
+    },
+    {
+      "text": "my bike does not work",
+      "intent": "Issue",
+      "entities": []
+    },
+    {
+      "text": "i have a flat tire",
+      "intent": "Issue",
+      "entities": []
+    },
+    {
+      "text": "i got a flat tire",
+      "intent": "Issue",
+      "entities": []
+    },
+    {
+      "text": "where to take my bike",
+      "intent": "Pickup",
+      "entities": []
+    },
+    {
+      "text": "where can i take my bike",
+      "intent": "Pickup",
+      "entities": []
+    },
+    {
+      "text": "where to get my bike",
+      "intent": "Pickup",
+      "entities": []
+    },
+    {
+      "text": "where can i get my bike",
+      "intent": "Pickup",
+      "entities": []
+    },
+    {
+      "text": "where to rent a bike",
+      "intent": "Pickup",
+      "entities": []
+    },
+    {
+      "text": "i want to rent a bike",
+      "intent": "Pickup",
+      "entities": []
+    },
+    {
+      "text": "where is the closest place to return my bike",
+      "intent": "Return",
+      "entities": []
+    },
+    {
+      "text": "where can i pick up a bike?",
+      "intent": "Pickup",
+      "entities": []
+    },
+    {
+      "text": "i want to take a bike",
+      "intent": "Pickup",
+      "entities": []
+    },
+    {
+      "text": "where to get",
+      "intent": "Pickup",
+      "entities": []
+    },
+    {
+      "text": "pick up bike",
+      "intent": "Pickup",
+      "entities": []
+    },
+    {
+      "text": "yes",
+      "intent": "Confirm",
+      "entities": []
+    }
+  ]
+}

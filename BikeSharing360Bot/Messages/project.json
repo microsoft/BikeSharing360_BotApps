@@ -1,0 +1,28 @@
+{
+  "frameworks": {
+    "net46": {
+      "dependencies": {
+        "Autofac": "3.5.2",
+        "Chronic.Signed": "0.3.2",
+        "Microsoft.AspNet.WebApi": "5.2.3",
+        "Microsoft.AspNet.WebApi.Client": "5.2.3",
+        "Microsoft.AspNet.WebApi.Core": "5.2.3",
+        "Microsoft.AspNet.WebApi.WebHost": "5.2.3",
+        "Microsoft.Bot.Builder": "3.3.0",
+        "Microsoft.Cognitive.LUIS": "1.0.0",
+        "Microsoft.Bot.Connector.DirectLine": "1.0.1.0",
+        "Microsoft.Diagnostics.Tracing.EventSource.Redist": "1.1.28",
+        "Microsoft.IdentityModel.Protocol.Extensions": "1.0.2.206221351",
+        "Microsoft.IdentityModel.Tokens": "1.0.2.206221351",
+        "Microsoft.Net.Compilers": "1.2.1",
+        "Microsoft.Rest.ClientRuntime": "2.3.2",
+        "Microsoft.WindowsAzure.ConfigurationManager": "3.2.1",
+        "Newtonsoft.Json": "9.0.1",
+        "System.IdentityModel.Tokens.Jwt": "4.0.2.206221351"
+      }
+    }
+  },
+  "sources": {
+    "compile": ["*.csx", "../Backend/*.csx"]
+  }
+}
