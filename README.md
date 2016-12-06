@@ -6,6 +6,8 @@ This application integrates Language Understanding Intelligent Service (LUIS) to
 
 <img src="images/bot1.png" Width="210" />
 <img src="images/bot2.png" Width="210" />
+<img src="images/bot3.png" Width="210" />
+<img src="images/bot4.png" Width="210" />
 
 ## Requirements
 You need an Azure subscription to deploy the bot service. [Try it for free](https://azure.microsoft.com/en-us/) 
