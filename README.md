@@ -1,6 +1,6 @@
 # BikeSharing360_BotApps
 BikeSharing360Bot shows how you can help your business grow and scale its customer service abilities through an intelligent bot that can understand customers and know when it might need to involve humans to help more complex issues. 
-This application integrates Language Understanding Intelligent Service (LUIS) to help understand customer intents which then launched into appropriate business flows and promptes users with appropriate and succinct questions to gather details, communicated with employees aggregated data, and could stay in touch with customers instantly when it needs to communicate timely updates and other information.  
+This application integrates Language Understanding Intelligent Service (LUIS) to help understand customer intents which then launched into appropriate business flows and promptes users with appropriate and succinct questions to gather details.
 
 ## Screens
 
