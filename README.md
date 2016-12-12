@@ -1,5 +1,4 @@
 #BikeSharing360
-
 During our Connect(); event this year we presented 15 demos in Scott Guthrie’s and Scott Hanselman’s keynotes. If you missed the keynotes, you can watch the recording in [Channel 9](https://channel9.msdn.com/Events/Connect/2016/Keynotes-Scott-Guthrie-and-Scott-Hanselman).
 
 This year, we built the technology stack for a fictional company named BikeSharing360, which allows users to rent bikes from one location to another.
@@ -28,8 +27,7 @@ This application integrates Language Understanding Intelligent Service (LUIS) to
 <img src="images/bot4.PNG" Width="210" />
 
 ## Requirements
-You need an Azure subscription to deploy the bot service. [Try it for free](https://azure.microsoft.com/en-us/) 
-This app works with the [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-service/). You can find documentation for Azure Bot Service [here](https://docs.botframework.com/en-us/azure-bot-service/#navtitle).
+You need an Azure subscription to deploy the bot service. [Try it for free](https://azure.microsoft.com/en-us/). This app works with the [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-service/). You can find documentation for Azure Bot Service [here](https://docs.botframework.com/en-us/azure-bot-service/#navtitle).
 
 ## Setup the bot service
 * 1. Deploy CustomerServiceApis into Azure (You need a bing map service subscription to make "GetMapWithRoute" api work).
