@@ -14,8 +14,8 @@ You need an Azure subscription to deploy the bot service. [Try it for free](http
 
 ## Setup the bot service
 * 1. Deploy CustomerServiceApis into Azure (You need a bing map service subscription to make "GetMapWithRoute" api work).
-* 2. Create a new Azure language understanding bot service. [How](https://docs.botframework.com/en-us/azure-bots/build/first-bot/#navtitle)
-* 3. Setup continuous integration. [How](https://docs.botframework.com/en-us/azure-bot-service/manage/setting-up-continuous-integration/#navtitle)
+* 2. Create a new Azure language understanding bot service. ([How](https://docs.botframework.com/en-us/azure-bots/build/first-bot/#navtitle))
+* 3. Setup continuous integration. ([How](https://docs.botframework.com/en-us/azure-bot-service/manage/setting-up-continuous-integration/#navtitle))
 * 4. Submit the BikeSharing360Bot code into repository.
 * 5. Sign into https://www.luis.ai and find the application created in step 2.
 * 6. Click "New App"->"Import Existing Application" and choose luis\BikeSharing360Luis.json. BikeSharing360Luis will be created.
