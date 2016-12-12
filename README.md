@@ -1,4 +1,22 @@
-# BikeSharing360_BotApps
+#BikeSharing360
+
+During our Connect(); event this year we presented 15 demos in Scott Guthrie’s and Scott Hanselman’s keynotes. If you missed the keynotes, you can watch the recording in [Channel 9](https://channel9.msdn.com/Events/Connect/2016/Keynotes-Scott-Guthrie-and-Scott-Hanselman).
+
+This year, we built the technology stack for a fictional company named BikeSharing360, which allows users to rent bikes from one location to another.
+
+BikeSharing360 is a fictitious example of a smart bike sharing system with 10,000 bikes distributed in 650 stations located throughout New York City and Seattle. Their vision is to provide a modern and personalized experience to riders and to run their business with intelligence.
+
+In this demo scenario, we built several apps for both the enterprise and the consumer (bike riders). You can find all other BikeSharing360 repos in the following locations:
+
+*[Mobile Apps](https://github.com/Microsoft/BikeSharing360_MobileApps)
+*[Backend Services](https://github.com/Microsoft/BikeSharing360_BackendServices)
+*[Websites](https://github.com/Microsoft/BikeSharing360_Websites)
+*[Single Container Apps](https://github.com/Microsoft/BikeSharing360_SingleContainer)
+*[Multi Container Apps](https://github.com/Microsoft/BikeSharing360_MultiContainer)
+*[Cognitive Services Kiosk App](https://github.com/Microsoft/BikeSharing360_CognitiveServicesKioskApp)
+*[Azure Bot App](https://github.com/Microsoft/BikeSharing360_BotApps)
+
+# BikeSharing360 Azure Bot Apps
 BikeSharing360Bot shows how you can help your business grow and scale its customer service abilities through an intelligent bot that can understand customers and know when it might need to involve humans to help more complex issues. 
 This application integrates Language Understanding Intelligent Service (LUIS) to help understand customer intents which then launched into appropriate business flows and promptes users with appropriate and succinct questions to gather details.
 
@@ -11,6 +29,7 @@ This application integrates Language Understanding Intelligent Service (LUIS) to
 
 ## Requirements
 You need an Azure subscription to deploy the bot service. [Try it for free](https://azure.microsoft.com/en-us/) 
+This app works with the [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-service/). You can find documentation for Azure Bot Service [here](https://docs.botframework.com/en-us/azure-bot-service/#navtitle).
 
 ## Setup the bot service
 * 1. Deploy CustomerServiceApis into Azure (You need a bing map service subscription to make "GetMapWithRoute" api work).
