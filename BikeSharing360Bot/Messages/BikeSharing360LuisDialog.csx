@@ -26,19 +26,13 @@ public class BikeSharing360LuisDialog : LuisDialog<object>
         await HandleNoneAsync(context, result);
     }
 
-    [LuisIntent("startconversation")]
-    public async Task StartConversation(IDialogContext context, IAwaitable<IMessageActivity> activity, LuisResult result)
-    {
-        await HandleStartConversationAsync(context, activity, result);
-    }
-
-    [LuisIntent("reportloss")]
+    [LuisIntent("Lost")]
     public async Task ReportLoss(IDialogContext context, IAwaitable<IMessageActivity> activity, LuisResult result)
     {
         await HandleReportLossAsync(context, activity, result);
     }
 
-    [LuisIntent("confirmlocation")]
+    [LuisIntent("Confirm")]
     public async Task ConfirmLocationAsync(IDialogContext context, IAwaitable<IMessageActivity> activity, LuisResult result)
     {
         await HandleConfirmLocationAsync(context, activity, result);
