@@ -22,7 +22,7 @@ namespace CustomerServiceApis.Controllers
         public string LookupUser(string ctype, string value)
         {
             //look up user from the database
-            return "";
+            return "Jane";
         }
 
         [Route("lookupbikeswithuser")]
@@ -30,7 +30,12 @@ namespace CustomerServiceApis.Controllers
         public System.Collections.Generic.List<Bike> LookupBikesWithUser(string userid)
         {
             //find bikes rented by the user
-            return null;
+            System.Collections.Generic.List<Bike> bikes = new System.Collections.Generic.List<Bike>();
+            Bike bike = new Bike();
+            bike.bikeid = "1";
+            bike.serialnumber = "1111";
+            bikes.Add(bike);
+            return bikes;
         }
 
         [Route("filecase")]
@@ -38,7 +43,7 @@ namespace CustomerServiceApis.Controllers
         public string FileCase(string userid, string incidenttype, double lat, double lon)
         {
             //add record to database and return case number
-            return "";
+            return "12345";
         }
 
         [Route("locatebike")]
@@ -49,12 +54,17 @@ namespace CustomerServiceApis.Controllers
             GeoLocation ret = new GeoLocation();
             if (datetime == "")
             {
-                return null;
+                ret.latitude = 40.722567290067673;
+                ret.longitude = -73.9976117759943;
+                ret.name = "Chipotle Mexican Grill";
             }
             else
             {
-                return null;
+                ret.latitude = 40.720725953578949;
+                ret.longitude = -74.005964174866676;
+                ret.name = "Spring Studios";
             }
+            return ret;
         }
 
         [Route("getmapwithroute")]
@@ -78,7 +88,7 @@ namespace CustomerServiceApis.Controllers
             double latitude2, double longitude2)
         {
             //Get the case status and return the ETA
-            return -1;
+            return 15;
         }        
     }
 }
