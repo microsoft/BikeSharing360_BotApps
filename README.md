@@ -1,4 +1,5 @@
-#BikeSharing360
+# BikeSharing360
+
 During our Connect(); event this year we presented 15 demos in Scott Guthrie’s and Scott Hanselman’s keynotes. If you missed the keynotes, you can watch the recording in [Channel 9](https://channel9.msdn.com/Events/Connect/2016/Keynotes-Scott-Guthrie-and-Scott-Hanselman).
 
 This year, we built the technology stack for a fictional company named BikeSharing360, which allows users to rent bikes from one location to another.
@@ -7,13 +8,13 @@ BikeSharing360 is a fictitious example of a smart bike sharing system with 10,00
 
 In this demo scenario, we built several apps for both the enterprise and the consumer (bike riders). You can find all other BikeSharing360 repos in the following locations:
 
-*[Mobile Apps](https://github.com/Microsoft/BikeSharing360_MobileApps)
-*[Backend Services](https://github.com/Microsoft/BikeSharing360_BackendServices)
-*[Websites](https://github.com/Microsoft/BikeSharing360_Websites)
-*[Single Container Apps](https://github.com/Microsoft/BikeSharing360_SingleContainer)
-*[Multi Container Apps](https://github.com/Microsoft/BikeSharing360_MultiContainer)
-*[Cognitive Services Kiosk App](https://github.com/Microsoft/BikeSharing360_CognitiveServicesKioskApp)
-*[Azure Bot App](https://github.com/Microsoft/BikeSharing360_BotApps)
+* [Mobile Apps](https://github.com/Microsoft/BikeSharing360_MobileApps)
+* [Backend Services](https://github.com/Microsoft/BikeSharing360_BackendServices)
+* [Websites](https://github.com/Microsoft/BikeSharing360_Websites)
+* [Single Container Apps](https://github.com/Microsoft/BikeSharing360_SingleContainer)
+* [Multi Container Apps](https://github.com/Microsoft/BikeSharing360_MultiContainer)
+* [Cognitive Services Kiosk App](https://github.com/Microsoft/BikeSharing360_CognitiveServicesKioskApp)
+* [Azure Bot App](https://github.com/Microsoft/BikeSharing360_BotApps)
 
 # BikeSharing360 Azure Bot Apps
 BikeSharing360Bot shows how you can help your business grow and scale its customer service abilities through an intelligent bot that can understand customers and know when it might need to involve humans to help more complex issues. 
@@ -30,16 +31,16 @@ This application integrates Language Understanding Intelligent Service (LUIS) to
 You need an Azure subscription to deploy the bot service. [Try it for free](https://azure.microsoft.com/en-us/). This app works with the [Azure Bot Service](https://azure.microsoft.com/en-us/services/bot-service/). You can find documentation for Azure Bot Service [here](https://docs.botframework.com/en-us/azure-bot-service/#navtitle).
 
 ## Setup the bot service
-* 1. Deploy CustomerServiceApis into Azure (You need a bing map service subscription to make "GetMapWithRoute" api work).
-* 2. Create a new Azure language understanding bot service. ([How](https://docs.botframework.com/en-us/azure-bots/build/first-bot/#navtitle))
-* 3. Setup continuous integration. ([How](https://docs.botframework.com/en-us/azure-bot-service/manage/setting-up-continuous-integration/#navtitle))
-* 4. Submit the BikeSharing360Bot code into repository.
-* 5. Sign into https://www.luis.ai and find the application created in step 2.
-* 6. Click "New App"->"Import Existing Application" and choose luis\BikeSharing360Luis.json. BikeSharing360Luis will be created.
-* 7. Enter the "BikeSharing360Luis" app. Click "train" button on the left bottom. Then click "publish" on the left. Save the app-id and subscription-key information from the URL.
-* 8. Go back to the code. Open BikeSharing360LuisDialog.csx. Replace "_YourModelId_", "_YourSubscriptionKey_" with the keys you got in step 7.
-* 9. Submit the code.
-* 10 Now, you can publish the bot ([How](https://docs.botframework.com/en-us/azure-bot-service/manage/publish/#navtitle)) and test it. 
+1. Deploy CustomerServiceApis into Azure (You need a bing map service subscription to make "GetMapWithRoute" api work).
+1. Create a new Azure language understanding bot service. ([How](https://docs.botframework.com/en-us/azure-bots/build/first-bot/#navtitle))
+1. Setup continuous integration. ([How](https://docs.botframework.com/en-us/azure-bot-service/manage/setting-up-continuous-integration/#navtitle))
+1. Submit the BikeSharing360Bot code into repository.
+1. Sign into https://www.luis.ai and find the application created in step 2.
+1. Click "New App"->"Import Existing Application" and choose luis\BikeSharing360Luis.json. BikeSharing360Luis will be created.
+1. Enter the "BikeSharing360Luis" app. Click "train" button on the left bottom. Then click "publish" on the left. Save the app-id and subscription-key information from the URL.
+1. Go back to the code. Open BikeSharing360LuisDialog.csx. Replace "_YourModelId_", "_YourSubscriptionKey_" with the keys you got in step 7.
+1. Submit the code.
+1. Now, you can publish the bot ([How](https://docs.botframework.com/en-us/azure-bot-service/manage/publish/#navtitle)) and test it. 
 
 ## How to sign up for Microsoft Azure
 
